@@ -15,6 +15,8 @@
 		2C216C0E25819FB3003BC2BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216BE325819FB0003BC2BD /* ContentView.swift */; };
 		2C216C0F25819FB3003BC2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C216BE425819FB3003BC2BD /* Assets.xcassets */; };
 		2C216C1025819FB3003BC2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C216BE425819FB3003BC2BD /* Assets.xcassets */; };
+		2C216C242581A06C003BC2BD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C232581A06C003BC2BD /* GridLayout.swift */; };
+		2C216C252581A06C003BC2BD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C232581A06C003BC2BD /* GridLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		2C216C0425819FB3003BC2BD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C216C0825819FB3003BC2BD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2C216C0A25819FB3003BC2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C216C232581A06C003BC2BD /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				2C216BE225819FB0003BC2BD /* SetAppApp.swift */,
 				2C216BE325819FB0003BC2BD /* ContentView.swift */,
+				2C216C232581A06C003BC2BD /* GridLayout.swift */,
 				2C216BE425819FB3003BC2BD /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C216C242581A06C003BC2BD /* GridLayout.swift in Sources */,
 				2C216C0D25819FB3003BC2BD /* ContentView.swift in Sources */,
 				2C216C0B25819FB3003BC2BD /* SetAppApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C216C252581A06C003BC2BD /* GridLayout.swift in Sources */,
 				2C216C0E25819FB3003BC2BD /* ContentView.swift in Sources */,
 				2C216C0C25819FB3003BC2BD /* SetAppApp.swift in Sources */,
 			);
