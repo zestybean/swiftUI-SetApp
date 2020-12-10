@@ -17,6 +17,14 @@
 		2C216C1025819FB3003BC2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C216BE425819FB3003BC2BD /* Assets.xcassets */; };
 		2C216C242581A06C003BC2BD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C232581A06C003BC2BD /* GridLayout.swift */; };
 		2C216C252581A06C003BC2BD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C232581A06C003BC2BD /* GridLayout.swift */; };
+		2C216C2B2582815A003BC2BD /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C2A2582815A003BC2BD /* SetGame.swift */; };
+		2C216C2C2582815A003BC2BD /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C2A2582815A003BC2BD /* SetGame.swift */; };
+		2C216C3225828ED5003BC2BD /* ShapeSetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C3125828ED5003BC2BD /* ShapeSetGame.swift */; };
+		2C216C3325828ED5003BC2BD /* ShapeSetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C3125828ED5003BC2BD /* ShapeSetGame.swift */; };
+		2C216C4825829400003BC2BD /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C4725829400003BC2BD /* Grid.swift */; };
+		2C216C4925829400003BC2BD /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C4725829400003BC2BD /* Grid.swift */; };
+		2C216C4F2582962A003BC2BD /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C4E2582962A003BC2BD /* Cardify.swift */; };
+		2C216C502582962A003BC2BD /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C216C4E2582962A003BC2BD /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,10 @@
 		2C216C0825819FB3003BC2BD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2C216C0A25819FB3003BC2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C216C232581A06C003BC2BD /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		2C216C2A2582815A003BC2BD /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
+		2C216C3125828ED5003BC2BD /* ShapeSetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeSetGame.swift; sourceTree = "<group>"; };
+		2C216C4725829400003BC2BD /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		2C216C4E2582962A003BC2BD /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,12 @@
 			children = (
 				2C216BE225819FB0003BC2BD /* SetAppApp.swift */,
 				2C216BE325819FB0003BC2BD /* ContentView.swift */,
+				2C216C4725829400003BC2BD /* Grid.swift */,
+				2C216C2A2582815A003BC2BD /* SetGame.swift */,
+				2C216C3125828ED5003BC2BD /* ShapeSetGame.swift */,
 				2C216C232581A06C003BC2BD /* GridLayout.swift */,
 				2C216BE425819FB3003BC2BD /* Assets.xcassets */,
+				2C216C4E2582962A003BC2BD /* Cardify.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -313,8 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C216C242581A06C003BC2BD /* GridLayout.swift in Sources */,
+				2C216C4F2582962A003BC2BD /* Cardify.swift in Sources */,
 				2C216C0D25819FB3003BC2BD /* ContentView.swift in Sources */,
+				2C216C2B2582815A003BC2BD /* SetGame.swift in Sources */,
 				2C216C0B25819FB3003BC2BD /* SetAppApp.swift in Sources */,
+				2C216C3225828ED5003BC2BD /* ShapeSetGame.swift in Sources */,
+				2C216C4825829400003BC2BD /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +343,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C216C252581A06C003BC2BD /* GridLayout.swift in Sources */,
+				2C216C502582962A003BC2BD /* Cardify.swift in Sources */,
 				2C216C0E25819FB3003BC2BD /* ContentView.swift in Sources */,
+				2C216C2C2582815A003BC2BD /* SetGame.swift in Sources */,
 				2C216C0C25819FB3003BC2BD /* SetAppApp.swift in Sources */,
+				2C216C3325828ED5003BC2BD /* ShapeSetGame.swift in Sources */,
+				2C216C4925829400003BC2BD /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
